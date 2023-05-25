@@ -7,13 +7,20 @@ public class Main {
 	public static void main(String[] args){
 
 	    Scanner sc = new Scanner(System.in);
-	    
-	    
-	    long A = sc.nextLong();
-	    long B = sc.nextLong();
-	    long C = sc.nextLong();
-	      
-	    System.out.print(A+B+C);
-	    
-	}
+	    //시험점수 입력
+	    int A = sc.nextInt();
+        if(100>=A && A>=90){
+            System.out.println("A");
+        }else if(A>=80){
+             System.out.println("B");
+        }else if(A>=70){
+             System.out.println("C");
+        }else if(A>=60){
+             System.out.println("D");
+        }else{
+             System.out.println("E");
+        }
+    }
+    
+ 
 }

@@ -18,7 +18,9 @@ public class TaxiTest {
 	public static void main(String[] args) {
 	//Taxi 클래스의 객체 생성	
 		Taxi taxi  = new Taxi("ionic 5", 3000, 1);
+		Taxi 카카오택시  = new Taxi("Sonata", 2000, 3);
 		
-		taxi.carInfo();
+		System.out.println(taxi.carInfo());
+		System.out.println(카카오택시.carInfo());
 	}
 }
