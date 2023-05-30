@@ -1,0 +1,13 @@
+package sailes_statement;
+
+public class Alcohol extends Drink {
+
+	float alcper; //알콜도수
+	
+	//생성자
+	Alcohol(String name, int price, int count, float alcper){
+		super(name, price, count);
+		this.alcper = alcper;
+	}
+	
+}

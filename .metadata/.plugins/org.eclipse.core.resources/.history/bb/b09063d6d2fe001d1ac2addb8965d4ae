@@ -1,0 +1,14 @@
+package abstractex.animal;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+		//고양이 객체 생성
+		Cat cat = new Cat();
+		
+		
+		
+	}
+
+	사랑과 감정은 눈에 보이지는 않지만 너를 보면
+	더 좋은사람이 되고싶고 노력하고싶어
+}

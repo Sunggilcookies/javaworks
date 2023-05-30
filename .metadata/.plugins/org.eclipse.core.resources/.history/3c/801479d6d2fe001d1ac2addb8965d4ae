@@ -1,0 +1,14 @@
+package enums;
+
+public enum Level {
+	LOW,
+	MEDIUM,
+	HIGH
+}
+
+public class EnumLevel {
+	
+	public static void main(String[] args) {
+		
+	}
+}

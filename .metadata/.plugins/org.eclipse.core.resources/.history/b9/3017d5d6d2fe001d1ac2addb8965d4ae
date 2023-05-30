@@ -1,0 +1,7 @@
+package inheritance.airplane;
+
+public class AirPlainMain {
+	public static void main(String[] args) {
+		fly();
+	}
+}

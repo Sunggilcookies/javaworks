@@ -1,0 +1,12 @@
+package inheritance.airplane;
+
+public class AirPlainMain {
+	public static void main(String[] args) {
+		//SuperSonicAirPlane 객체 생성
+		SuperSonicAirPlain sa = new SuperSonicAirPlain();
+		sa.takeOff();
+		sa.fly();
+		sa.land();
+		sa.flyMode=SuperSonicAirPlain.SUPERSONIC
+	}
+}

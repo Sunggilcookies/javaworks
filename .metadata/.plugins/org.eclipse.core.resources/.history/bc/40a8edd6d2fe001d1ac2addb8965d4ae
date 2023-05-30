@@ -1,0 +1,8 @@
+package transport;
+
+public class Taxi {
+	
+	public Taxi(String vehicleName) {
+		super(vehicleName);
+}
+}
