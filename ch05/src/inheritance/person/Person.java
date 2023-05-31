@@ -4,5 +4,4 @@ public class Person {
 	//field
 	String name;
 	int age;
-
 }

@@ -5,12 +5,12 @@ public class Birthday {
 	int month;
 	int day;
 	
-	public void setYear(int year){
+	public void setYear(int year) {
 		this.year = year;
-}
-
-//this 객체의주소를 출력해라
-public void printThis() {
-	System.out.println(this);
-}
+	}
+	
+	//this 객체의 주소를 출력할 함수
+	public void printThis() {
+		System.out.println(this);
+	}
 }

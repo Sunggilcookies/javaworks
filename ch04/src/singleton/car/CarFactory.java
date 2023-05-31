@@ -2,7 +2,6 @@ package singleton.car;
 
 public class CarFactory {
 	//싱글톤 패턴
-	
 	//객체 필드(변수)
 	private static CarFactory instance;
 	
@@ -11,9 +10,8 @@ public class CarFactory {
 	
 	//getInstance() 메서드
 	public static CarFactory getInstance() {
-		if(instance ==null) {
+		if(instance == null) {
 			instance = new CarFactory();
-			
 		}
 		return instance;
 	}

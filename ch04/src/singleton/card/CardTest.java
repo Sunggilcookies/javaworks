@@ -1,21 +1,18 @@
 package singleton.card;
 
 public class CardTest {
-	
+
 	public static void main(String[] args) {
-		//CardComapny 객체 생성
-		CardCompany cc = CardCompany.getInstance();
 		
+		CardCompany company = CardCompany.getInstance();
 		
-		Card cn1 = cc.createCard();
-		Card cn2 = cc.createCard();
-		Card cn3 = cc.createCard();
-		
-		System.out.println(cn1.getCardNum());
-		System.out.println(cn2.getCardNum());
-		System.out.println(cn3.getCardNum());
-		
-		
-	
+		Card card1 = company.createCard();
+		Card card2 = company.createCard();
+		Card card3 = company.createCard();
+			
+		System.out.println("카드번호: " + card1.getCardNum());
+		System.out.println("카드번호: " + card2.getCardNum());
+		System.out.println("카드번호: " + card3.getCardNum());
 	}
+
 }
