@@ -77,7 +77,7 @@ public class BankArrayList {
 		
 			System.out.print("계좌번호: " + account.getAno() + "\t");
 			System.out.print("계좌주: " + account.getOwner() + "\t");
-			System.out.print("계좌번호: " + account.getBalance());
+			System.out.print("계좌번호: " + account.getBalance()+"\n");
 		}
 		
 		

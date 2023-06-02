@@ -5,5 +5,5 @@
  * @author Administrator
  *
  */
-module Banking {
+module lib {
 }
