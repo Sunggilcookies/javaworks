@@ -1,11 +1,8 @@
 package banking.banking_db;
 
-import java.sql.SQLException;
 import java.util.Scanner;
 
-import banking.bankarray.Account;
-
-public class BankMain{
+public class MainApp{
 
 	// 통장 계좌를 만들 객체 배열 100개 생성
 
