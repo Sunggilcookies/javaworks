@@ -7,21 +7,10 @@ public class Apple {
 	public Apple(String name) {
 		this.name = name;
 	}
-
-
 	
-	/*
-	 * //이름에 접근하는 방법 1.get, set public void set(String name)
-	 *  { this.name = name; }
-	 * 
-	 * public String get() { return name; }
-	 */
-	
+	//이름에 접근하는 방법 1.get, set
 	//2. toString() 재정의
-	public String toString() {
-		return name;
-	}
-	
-
+	@Override
+	public String toString() { return name; }
+	 
 }
-

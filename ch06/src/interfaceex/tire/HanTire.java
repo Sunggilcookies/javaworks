@@ -1,12 +1,11 @@
 package interfaceex.tire;
 
-//Tire을 구현한 KumTire
-public class HanTire implements Tire {
+//Tire를 구현한 KumTire
+public class HanTire implements Tire{
 
 	@Override
 	public void roll() {
 		System.out.println("한타이어가 굴러갑니다.");
-		
 	}
 
 }

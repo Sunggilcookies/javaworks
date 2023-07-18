@@ -5,41 +5,34 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FIleCopy1 {
-	@SuppressWarnings("null")
-	public static void main(String[] args) {
-		//이미지 파일을 읽고 쓰기9ㅂ고사)
-		
-		String originFile = "c:/file/bg0.jpg"; //원본 파일
-		String copyFile = "c:/file/bg1.jpg"; //사본 파일
+public class FileCopy1 {
 
+	public static void main(String[] args) {
+		//이미지 파일을 읽고 쓰기(복사)
+		String originFile = "c:/file/bg0.jpg";  //원본 파일
+		String copyFile = "c:/file/bg1.jpg";   //사본 파일
+		
 		FileInputStream fis = null;
 		FileOutputStream fos = null;
-		
-		int i;
-		
-			try {
+		try {
 			fis = new FileInputStream(originFile);
 			fos = new FileOutputStream(copyFile);
-			while((i = fis.read()) != -1) {
-			
-					fos.write(i);
+			int i;
+			while((i = fis.read()) != -1) {  //이미지 파일 읽어서
+				fos.write(i); //이미지 쓰기
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {
 				fis.close();
 				fos.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-			System.out.println("복사완료");
-}//main 끝
-	}
+		System.out.println("복사 완료!!");
+	}//main 끝
+}

@@ -1,33 +1,27 @@
 package interfaceex.remocon;
 
+//RemoteControl, Searchable를 구현한 클래스
 public class SmartTV implements RemoteControl, Searchable{
 	
 	private int volume;
 
-	
-	
 	@Override
-	public void search(String url) {
-		System.out.println(url+"를 검색합니다.");
-		// TODO Auto-generated method stub
-		
+	public void serarch(String url) {
+		System.out.println(url + "을 검색합니다.");
 	}
 
 	@Override
 	public void turnOn() {
 		System.out.println("TV를 켭니다.");
-		
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("Tv를 끕니다.");
-		
+		System.out.println("TV를 끕니다.");
 	}
 
 	@Override
 	public void setVolume(int volume) {
-		// TODO Auto-generated method stub
 		if(volume > RemoteControl.MAX_VOLUME) {  //최대 볼륨
 			this.volume = RemoteControl.MAX_VOLUME;
 		}
@@ -39,18 +33,4 @@ public class SmartTV implements RemoteControl, Searchable{
 		}
 		System.out.println("현재 볼륨은 " + this.volume + "입니다.");
 	}
-	
-
-	@Override
-	public void setMute(boolean mute) {
-			if(mute) {//mute == true
-				System.out.println("무음 처리합니다.");
-			}
-			else {
-				System.out.println("무음 해제합니다.");
-			}
-		}
-	}
-	
-
-
+}

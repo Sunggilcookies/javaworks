@@ -1,14 +1,14 @@
 package collections.box2;
 
-public class Box<T> {
-	private T type;
+public class Box {
 	
-	public void set(T type) {
-		this.type = type;
+	private Object obj;
+	
+	public void set(Object obj) {
+		this.obj = obj;
 	}
 	
-	public T get() {
-		return type;
+	public Object get() {
+		return obj;
 	}
-	
 }

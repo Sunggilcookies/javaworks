@@ -7,22 +7,18 @@ public class Player {
 	
 	//생성자
 	public Player() {
-		level=new Beginner();
-		level.showLevelMessage();
+		level = new Beginner();
+		level.showLevelMessage();  //초보자입니다.
 	}
 	
-	
-	
-	//showLevelMesage() 를 변경하는 메소드(매개변수의 다ㅎㅇ성
-	public void upgradeLevel1(PlayerLevel level) {
-		this.level=level;
+	//showLevelMessage()를 변경하는 메서드(매개변수의 다형성)
+	public void upgradeLevel(PlayerLevel level) {
+		this.level = level;
 		level.showLevelMessage();
 	}
-	
 	
 	//play 메서드
-    public void play(int count) {
-    	level.go(count);
-    }
+	public void play(int count) {
+		level.go(count);
+	}
 }
-

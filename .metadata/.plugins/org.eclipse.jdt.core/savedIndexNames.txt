@@ -10,7 +10,6 @@ INDEX VERSION 1.132+C:\green_project\javaworks\.metadata\.plugins\org.eclipse.jd
 1147843784.index
 3714311538.index
 2748488143.index
-1107845565.index
 3113725113.index
 3525081628.index
 1124561105.index

@@ -1,8 +1,8 @@
 package db;
 
-//V0 (Value Object) - 자료형
+//VO(Value Object) - 자료형
 public class Person {
-	//필드(db테이블 - 칼럼명)
+	//필드(DB 테이블 - 칼럼명)
 	private String userId;
 	private String userPw;
 	private String name;
@@ -11,19 +11,15 @@ public class Person {
 	//기본 생성자
 	public Person() {}
 	
-	//외부입력가능한 생성자
-	//필드 (DB 테이블 -칼럼명)
-	public Person(String userId, String userPw,
+	//외부 입력가능한 생성자
+	public Person(String userId, String userPw, 
 			String name, int age) {
 		this.userId = userId;
 		this.userPw = userPw;
 		this.name = name;
 		this.age = age;
-	
-
 	}
 	
-	//PRIVATE이기에 함수를 거쳐서 나오게함
 	//setter, getter
 	public String getUserId() {
 		return userId;

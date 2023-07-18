@@ -5,13 +5,13 @@ public class Point {
 	int y;
 	
 	Point(int x, int y){
-		this.x =x;
-		this.y =y;
+		this.x = x;
+		this.y = y;
 	}
-
+	
+	//객체의 문자열 정보 출력 메서드
 	@Override
 	public String toString() {
-		
-		return "점의 좌표 x는"+x+"이고 y는"+y+"입니다.";
+		return "x=" + x + ", y=" + y;
 	}
 }

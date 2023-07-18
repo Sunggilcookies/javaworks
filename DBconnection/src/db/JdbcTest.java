@@ -18,14 +18,13 @@ public class JdbcTest {
 		try {
 			Class.forName(driverClass);
 			System.out.println("Oracle 드라이버 로딩");
-			conn = DriverManager.getConnection(url, username, password);
-			System.out.println("Connection 객체 생성 : " + conn);
+			conn= DriverManager.getConnection(url, username, password);
+			System.out.println("Connection 객체 생성: " + conn);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
+
 }

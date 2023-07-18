@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inheritance.MyInterface"/>
-    <fullyQualifiedTypeName name="java.lang.SecurityException"/>
-    <fullyQualifiedTypeName name="shelf.BookShelf"/>
-    <fullyQualifiedTypeName name="java.awt.print.Book"/>
-    <fullyQualifiedTypeName name="game_level.PlayerLevel"/>
-    <fullyQualifiedTypeName name="game_level.Player"/>
-    <fullyQualifiedTypeName name="game_level.AdvancedLevel"/>
     <fullyQualifiedTypeName name="game_level.SuperLevel"/>
     <fullyQualifiedTypeName name="banking.bankarray.Account"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
@@ -58,6 +51,13 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="collections.product.car"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="nestedclass.A.B"/>
+    <fullyQualifiedTypeName name="nestedclass.A.C"/>
+    <fullyQualifiedTypeName name="interfaceex.scheduler.Scheduler"/>
+    <fullyQualifiedTypeName name="interfaceex.scheduler.SchedulerMain"/>
 </qualifiedTypeNameHistroy>
